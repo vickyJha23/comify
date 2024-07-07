@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+     .black-shade{
+          background-color:  rgba(0, 0, 0, 0.4);
+     }
+}

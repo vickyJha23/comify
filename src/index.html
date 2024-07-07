@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Comfy</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <nav class="w-[100%] h-[6rem] flex justify-center items-center px-[1rem] md:px-[0]">
+        <div class="md:w-[90vw] md:max-w-[1140px] md:mx-auto md:flex md:h-[100%] md:justify-between md:items-center flex justify-between w-[100%] items-center">
+            <div class="md:hidden">
+                <button class="bg-orange-400 text-white px-[1rem] py-[0.1rem] text-[1.5rem] rounded-[20px] transition-all hover:bg-orange-700 duration-300">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <ul class="md:flex hidden">
+                <li><a href="#" class="md:inline-block md:mr-[3rem] text-white tracking-[2px] text-[1.3rem] hover:text-orange-400 transition-all duration-300">Home</a></li>
+                <li><a href="#" class="md:inline-block md:mr-[3rem] text-white tracking-[2px] text-[1.3rem] hover:text-orange-400 transition-all duration-300">Products</a></li>
+                <li><a href="#" class="md:inline-block md:mr-[3rem] text-white tracking-[2px] text-[1.3rem] hover:text-orange-400 transition-all duration-300">About</a></li>
+            </ul>
+            <div>
+                <img src="../images/logo-white.svg" alt="">
+            </div>
+            <div class="relative">
+                <button class="text-white text-[2rem]">
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </button>
+                <div class="w-[1.8rem] h-[1.8rem] bg-orange-400 absolute top-[-0.5rem] right-[-0.6rem] rounded-[50%] grid place-items-center text-white">0</div>
+            </div>
+        </div>
+     </nav>
+     <section class="min-h-screen bg-[url('../images/main-bcg.jpeg')] mt-[-6rem] bg-no-repeat bg-cover bg-center grid items-center px-[1rem] md:px-[0]">
+         <div class="md:w-[90vw] md:max-w-[1140px] md:mx-auto">
+            <h1 class="md:text-[5rem] text-[3rem] text-white font-semibold font-kaushan-script"><span class="mr-[1rem]">Rest ,</span> <span class="mr-[1rem]">Relax ,</span> <span>Unwind</span></h1>
+             <p class="text-white md:text-[3rem] text-[1.5rem] tracking-[2px] font-semibold">Embrace your choices - we do</p>
+             <button class="border-[2px] border-white text-white px-[0.5rem] py-[0.5rem] rounded-[5px] mt-[1rem] transition-all hover:bg-white hover:text-yellow-400 duration-300">
+                <a href="#" class="uppercase text-[1rem] tracking-[2px]">Shop Now</a>
+             </button>
+         </div>
+     </section>
+     <div class="w-[100%] h-[100vh] grid place-items-center fixed top-0 left-0 black-shade md:hidden">
+         <aside class="bg-white w-[95vw] h-[95vh] rounded-[5px] p-[4rem] relative">
+             <button class="text-[2rem] absolute top-[0.5rem] right-[1rem]">
+                   <i class="fa fa-times"></i>
+             </button>
+             <ul>
+                 <li class="mb-[1rem]">
+                    <a href="#" class="text-[1.5rem]"><i class="fa fa-home text-[#818181] mr-[1rem]"></i> Home</a>
+                 </li>
+                 <li class="mb-[1rem]">
+                    <a href="#" class="text-[1.5rem]"><i class="fa-solid fa-couch text-[#818181] mr-[1rem]"></i> Product</a>
+                 </li>
+                 <li class="mb-[1rem]"  >
+                    <a href="#" class="text-[1.5rem]"><i class="fa-solid fa-couch text-[#818181] mr-[1rem]"></i> About</a>
+                 </li>
+             </ul>
+         </aside>
+     </div>
+     <div class="w-[100vw] h-[100vh] fixed top-0 left-0 bg-red-400 z-20">
+           <aside class="h-[100%] w-[250px] bg-white">
+
+           </aside>
+     </div>
+</body>
+</html>
